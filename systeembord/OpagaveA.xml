@@ -1,0 +1,27 @@
+<systeembord>
+  <element name="ToggleSwitch" id="ToggleSwitch0" x="2" y="321"/>
+  <element name="ToggleSwitch" id="ToggleSwitch1" x="2" y="192"/>
+  <element name="NOTPort" id="NOTPort2" x="176" y="104"/>
+  <element name="NOTPort" id="NOTPort3" x="176" y="54">
+    <link id="input" toElement="ToggleSwitch1" toNode="output"/>
+  </element>
+  <element name="ANDPort" id="ANDPort0" x="346" y="411"/>
+  <element name="ANDPort" id="ANDPort1" x="346" y="292"/>
+  <element name="ANDPort" id="ANDPort2" x="346" y="172"/>
+  <element name="ANDPort" id="ANDPort3" x="346" y="54">
+    <link id="input1" toElement="NOTPort3" toNode="output"/>
+    <link id="input2" toElement="NOTPort2" toNode="output"/>
+  </element>
+  <element name="LED" id="LED0" x="496" y="441">
+    <link id="input" toElement="ANDPort0" toNode="output"/>
+  </element>
+  <element name="LED" id="LED1" x="496" y="321">
+    <link id="input" toElement="ANDPort1" toNode="output"/>
+  </element>
+  <element name="LED" id="LED2" x="496" y="203">
+    <link id="input" toElement="ANDPort2" toNode="output"/>
+  </element>
+  <element name="LED" id="LED3" x="496" y="84">
+    <link id="input" toElement="ANDPort3" toNode="output"/>
+  </element>
+</systeembord>
