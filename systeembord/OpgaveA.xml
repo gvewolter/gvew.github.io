@@ -1,8 +1,8 @@
 <systeembord>
-  <element name="ToggleSwitch" id="ToggleSwitch0" x="2" y="321"/>
-  <element name="ToggleSwitch" id="ToggleSwitch1" x="2" y="192"/>
-  <element name="NOTPort" id="NOTPort2" x="176" y="104"/>
-  <element name="NOTPort" id="NOTPort3" x="176" y="54">
+  <element name="ToggleSwitch" id="ToggleSwitch0" x="13" y="321"/>
+  <element name="ToggleSwitch" id="ToggleSwitch1" x="13" y="189"/>
+  <element name="NOTPort" id="NOTPort2" x="196" y="104"/>
+  <element name="NOTPort" id="NOTPort3" x="196" y="54">
     <link id="input" toElement="ToggleSwitch1" toNode="output"/>
   </element>
   <element name="ANDPort" id="ANDPort0" x="346" y="411"/>
