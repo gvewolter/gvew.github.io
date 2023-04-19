@@ -1,0 +1,41 @@
+<systeembord>
+  <element name="ToggleSwitch" id="ToggleSwitch0" x="13" y="321"/>
+  <element name="ToggleSwitch" id="ToggleSwitch1" x="13" y="189"/>
+  <element name="NOTPort" id="NOTPort2" x="196" y="104">
+    <link id="input" toElement="ToggleSwitch0" toNode="output"/>
+  </element>
+  <element name="NOTPort" id="NOTPort3" x="196" y="54">
+    <link id="input" toElement="ToggleSwitch1" toNode="output"/>
+  </element>
+  <element name="ANDPort" id="ANDPort0" x="346" y="411"/>
+  <element name="ANDPort" id="ANDPort1" x="346" y="292"/>
+  <element name="ANDPort" id="ANDPort2" x="346" y="172"/>
+  <element name="ANDPort" id="ANDPort3" x="346" y="54">
+    <link id="input1" toElement="NOTPort3" toNode="output"/>
+    <link id="input2" toElement="NOTPort2" toNode="output"/>
+  </element>
+  <element name="LED" id="LED0" x="496" y="441">
+    <link id="input" toElement="ANDPort0" toNode="output"/>
+  </element>
+  <element name="LED" id="LED1" x="496" y="321">
+    <link id="input" toElement="ANDPort1" toNode="output"/>
+  </element>
+  <element name="LED" id="LED2" x="496" y="203">
+    <link id="input" toElement="ANDPort2" toNode="output"/>
+  </element>
+  <element name="LED" id="LED3" x="496" y="84">
+    <link id="input" toElement="ANDPort3" toNode="output"/>
+  </element>
+  <element name="TextElement" id="TextElement0" x="14" y="296" text="512" scaleX="1.00" scaleY="1.00" width="150"/>
+  <element name="TextElement" id="TextElement1" x="23" y="160" text="256" scaleX="1.00" scaleY="1.00" width="150"/>
+  <element name="TextElement" id="TextElement2" x="502" y="415" text="Blauw" scaleX="1.00" scaleY="1.00" width="150"/>
+  <element name="TextElement" id="TextElement3" x="506" y="291" text="Groen" scaleX="1.00" scaleY="1.00" width="150"/>
+  <element name="TextElement" id="TextElement4" x="509" y="177" text="Geel" scaleX="1.00" scaleY="1.00" width="150"/>
+  <element name="TextElement" id="TextElement5" x="501" y="56" text="Rood" scaleX="1.00" scaleY="1.00" width="150"/>
+  <element name="NOTPort" id="NOTPort0" x="181" y="606"/>
+  <element name="NOTPort" id="NOTPort1" x="31" y="606"/>
+  <element name="NOTPort" id="NOTPort4" x="331" y="556"/>
+  <element name="NOTPort" id="NOTPort5" x="181" y="556"/>
+  <element name="NOTPort" id="NOTPort6" x="31" y="556"/>
+  <element name="NOTPort" id="NOTPort7" x="331" y="606"/>
+</systeembord>
