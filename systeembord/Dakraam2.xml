@@ -1,0 +1,12 @@
+<systeembord>
+  <element name="ToggleSwitch" id="ToggleSwitch0" x="0" y="44"/>
+  <element name="ToggleSwitch" id="ToggleSwitch1" x="0" y="148"/>
+  <element name="LED" id="LED0" x="456" y="98"/>
+  <element name="TextElement" id="TextElement0" x="455" y="60" text="Dakraam motor (R)" scaleX="1.00" scaleY="1.00" width="183"/>
+  <element name="TextElement" id="TextElement1" x="8" y="15" text="Signaal P" scaleX="1.00" scaleY="1.00" width="150"/>
+  <element name="TextElement" id="TextElement2" x="4" y="122" text="Regensensor" scaleX="1.00" scaleY="1.00" width="150"/>
+  <element name="ORPort" id="ORPort0" x="246" y="200"/>
+  <element name="NOTPort" id="NOTPort0" x="246" y="300"/>
+  <element name="Memory" id="Memory0" x="246" y="100"/>
+  <element name="ANDPort" id="ANDPort0" x="246" y="0"/>
+</systeembord>
