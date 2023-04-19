@@ -1,0 +1,14 @@
+<systeembord>
+  <element name="Comparator" id="Comparator0" x="142" y="200" inputValue="0.0">
+    <link id="input" toElement="VarVoltage0" toNode="output"/>
+  </element>
+  <element name="Comparator" id="Comparator1" x="142" y="100" inputValue="0.0">
+    <link id="input" toElement="VarVoltage0" toNode="output"/>
+  </element>
+  <element name="VarVoltage" id="VarVoltage0" x="-8" y="138" inputValue="0.0"/>
+  <element name="LED" id="LED0" x="618" y="176"/>
+  <element name="NOTPort" id="NOTPort0" x="405" y="300"/>
+  <element name="ANDPort" id="ANDPort0" x="405" y="0"/>
+  <element name="ORPort" id="ORPort0" x="405" y="200"/>
+  <element name="Memory" id="Memory0" x="405" y="100"/>
+</systeembord>
