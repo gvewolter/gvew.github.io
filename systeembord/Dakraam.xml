@@ -11,4 +11,6 @@
   <element name="ANDPort" id="ANDPort0" x="405" y="0"/>
   <element name="ORPort" id="ORPort0" x="405" y="200"/>
   <element name="Memory" id="Memory0" x="405" y="100"/>
+  <element name="TextElement" id="TextElement0" x="-4" y="79" text="Temperatuursensor" scaleX="1.00" scaleY="1.00" width="172"/>
+  <element name="TextElement" id="TextElement1" x="619" y="144" text="Dakraam (P)" scaleX="1.00" scaleY="1.00" width="150"/>
 </systeembord>
